@@ -1,6 +1,10 @@
-lado = int(input("Digite o valor correspondente ao lado de um quadrado: "))
+x=input("Digite: ")
 
-x=lado*4
-y=lado*lado
+if x == 'a' or x=='e' or x=='i' or x=='o' or x=='u':
+	print("True")
+	#return True
+else:
+	print("False")
+	#return False
 
-print("perímetro: ",x, "- área: ",y)
+
